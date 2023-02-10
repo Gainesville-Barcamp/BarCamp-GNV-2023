@@ -7,5 +7,5 @@
 
 
 ## How to commit deploy
-1. Commit directly to `master`.
+1. Commit directly to `main`.
 2. From the root directory, run `./deploy.sh`. Be sure the deploy script is executable (by running `chmod +x deploy.sh`).
