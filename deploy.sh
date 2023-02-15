@@ -1,8 +1,8 @@
 #!/bin/bash
-git push origin master
+git push origin main
 git checkout gh-pages
-git checkout master .
+git checkout main .
 git add .
 git commit -m "Automatic asset commit."
 git push origin gh-pages
-git checkout master
+git checkout main
