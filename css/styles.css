@@ -1361,6 +1361,7 @@ Our Sessions
 .our-sessions .col-full p {
   text-align: center;
   max-width: 144rem;
+  /* margin: 32px auto; */
 }
 
 @media (max-width: 900px) {
@@ -1370,9 +1371,9 @@ Our Sessions
   }
 }
 
-.our-sessions .col-full p {
+/* .our-sessions .col-full p {
   margin-bottom: 0;
-}
+} */
 
 .our-sessions .col-left {
   grid-column: 2/7;
@@ -1432,7 +1433,7 @@ Our Sessions
   display: inline-block;
   width: 15rem;
   background-size: cover;
-  background: var(--midnight) url("/svg/session-vr.svg") no-repeat top left;
+  background: var(--midnight) url(../images/session-vr.svg) no-repeat top left;
 }
 
 .our-sessions .col-left .session_vr .photo-themes,
@@ -1479,33 +1480,13 @@ Our Sessions
   font-size: 1.6rem;
 }
 
-/* .our-sessions .col-left .session--holly .session_vr,
-.our-sessions .col-right .session--holly .session_vr {
-  background: var(--specter) url(../images/holly.jpg) no-repeat;
+.our-sessions .col-left .session--lauren .session_vr,
+.our-sessions .col-right .session--lauren .session_vr {
+  background: var(--specter) url(../images/Speakers/lauren.webp) no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.our-sessions .col-left .session--derek .session_vr,
-.our-sessions .col-right .session--derek .session_vr {
-  background: var(--specter) url(../images/derek.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.our-sessions .col-left .session--michelle-peter .session_vr,
-.our-sessions .col-right .session--michelle-peter .session_vr {
-  background: var(--specter) url(../images/michelle-peter.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.our-sessions .col-left .session--watt .session_vr,
-.our-sessions .col-right .session--watt .session_vr {
-  background: var(--specter) url(../images/WATT.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-} */
 
 /*------------------------------
 Our Sponsors
