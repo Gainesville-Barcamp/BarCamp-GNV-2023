@@ -1482,11 +1482,17 @@ Our Sessions
 
 .our-sessions .col-left .session--lauren .session_vr,
 .our-sessions .col-right .session--lauren .session_vr {
-  background: var(--specter) url(../images/Speakers/lauren.webp) no-repeat;
+  background: var(--specter) url(../images/speakers/lauren.webp) no-repeat;
   background-size: cover;
   background-position: center;
 }
 
+.our-sessions .col-left .session--mike .session_vr,
+.our-sessions .col-right .session--mike .session_vr {
+  background: var(--specter) url(../images/speakers/mike.webp) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
 /*------------------------------
 Our Sponsors
