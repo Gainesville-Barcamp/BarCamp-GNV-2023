@@ -1494,6 +1494,13 @@ Our Sessions
   background-position: center;
 }
 
+.our-sessions .col-left .session--dan .session_vr,
+.our-sessions .col-right .session--dan .session_vr {
+  background: var(--specter) url(../images/speakers/dan.webp) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 /*------------------------------
 Our Sponsors
 -------------------------------*/
